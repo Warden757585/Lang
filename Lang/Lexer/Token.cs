@@ -4,7 +4,8 @@ enum Tokens
 {
     INT,
     STRING,
-    LET
+    LET,
+    UNKNOWN
 }
 
 //Token Struct to store Token Type and Data
