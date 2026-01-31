@@ -1,6 +1,6 @@
 
 //Enum to store Token Types:
-enum Tokens
+public enum Tokens
 {
     INT,
     STRING,
@@ -13,8 +13,8 @@ enum Tokens
 // Token t = new Token{Tokens.INT, varValue}
 // Token t = new Token{TokensSTRING, varValue}
 
-struct Token
+public struct Token
 {
-    Tokens type;
-    string data;
+    public Tokens type;
+    public string data;
 };
